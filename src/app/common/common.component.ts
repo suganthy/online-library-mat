@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
 
+/**
+ * @title Configurable slide-toggle
+ */
 @Component({
-  selector: 'app-common',
-  templateUrl: './common.component.html',
-  styleUrls: ['./common.component.css']
+  //selector: 'mat-slide-toggle',
+  templateUrl: 'common.component.html',
+  styleUrls: ['common.component.css']
 })
-export class CommonComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class CommonComponent {
+ 
 }
